@@ -1,5 +1,5 @@
 ## Although the file is a .txt, it's not set up as a table, so reading it in as one column is the approach that has worked for me
-actDat <- read.csv("MyPath/Some_ACT_Datafile.txt", header = FALSE, col.names = c("DATAFILE"))
+actDat1516 <- read.csv("MyPath/Some_ACT_Datafile.txt", header = FALSE, col.names = c("DATAFILE"))
 
 ## The following character positions are specific to ACT datafiles from Sep 2015 to Aug 2016
 ## The ACT datafile layout can be found here: https://www.act.org/content/dam/act/unsecured/documents/Electronic_Student_Record_Layout_High_School_2015-16.pdf
